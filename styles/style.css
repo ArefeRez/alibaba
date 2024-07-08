@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;}
+.navbar-brand img{
+    width: 25%;
+}
+nav a{
+    font-family: iranyekanwebregular;
+    font-weight: 500;
+}
+li a img{
+    color: gray;
+}
+#boredr-left{
+    border-left: 1px solid #4b5259;
+}
