@@ -1,14 +1,55 @@
 *{margin: 0; padding: 0;}
-.navbar-brand img{
-    width: 25%;
+header{
+    height: 64px;
+    width: 100%;
+}
+#icon-alibaba{
+    height: 30px;
+    margin-left: 45px;
 }
 nav a{
     font-family: iranyekanwebregular;
     font-weight: 500;
 }
-li a img{
+li a i{
     color: gray;
+    vertical-align: middle;
+    font-size: 1.4rem;
 }
-#boredr-left{
-    border-left: 1px solid #4b5259;
+.navbar-nav li:hover a{
+    background-color: #f8fafb;
+    border-radius: 5px;
+}
+#hero{
+    height: 320px;
+    width: 100%;
+}
+#product-box{
+    border: 1px solid #aec4b9;
+}
+#product-box i{
+    color: #4b5952;
+    text-align: center;
+    
+}
+#product-box a{
+    color: #4b5952;
+    font-family: iranyekanwebmedium;
+}
+#product-box li:hover a{
+    color: #0077db;
+}
+#product-box li:hover i{
+    color: #0077db;
+}
+#form{
+    gap: 15px;
+}
+#form1{
+    grid: 3;
+}
+#button-search{
+    background-color: #fdb713;
+    color: #000;
+    border: none;
 }
