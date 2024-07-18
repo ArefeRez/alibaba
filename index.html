@@ -141,7 +141,7 @@
             <option value="1">رفت و برگشت</option>
           </select>
         </div>
-        <div id="form" class="d-flex mb-4">
+        <div id="form" class="d-md-flex mb-4">
           <div id="form1" class="input-group mb-3">
             <input type="text" class="form-control" placeholder="مبدا (شهر)" aria-label="Username">
             <span class="input-group-text"><i class="bi bi-arrow-left-right"></i></span>
@@ -151,17 +151,103 @@
             <input type="text" class="form-control" placeholder="تاریخ رفت">
             <input type="text" class="form-control" placeholder="تاریخ برگشت">
           </div>
-          <div class="mb-3 col-2">
+          <div class="mb-3 col-md-2 col-auto">
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="1 مسافر">
           </div>
           <div class="col-2">
-            <button id="button-search" class="btn btn-outline-secondary px-lg-5 px-md-4" type="button">جستجو</button>
+            <button id="button-search" class="btn btn-outline-secondary px-lg-5 px-md-4 fw-bold" type="button">جستجو</button>
           </div>
         </div>
       </div> 
+      <div class="col-10 m-auto mb-2">
+        <h5 class="fw-bold">سایر خدمات علی‌بابا</h5>
+      </div>
+      <div class="col-10 row-cols-md-4 row-cols-sm-2 m-auto rounded row mb-3 align-items-center py-3" id="product-card">
+        <div class="position-relative col-3"><a href="#">
+          <img src="./img/safarcard-3dc2c4c4.svg" alt="">
+            <span id="new" class="position-absolute bottom-30 end-45 translate-middle badge rounded-pill pb-2 text-dark">
+              جدید
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          <p>سفرکارت (سازمانی)</p>
+        </a></div>
+        <div class="col-3"><a href="#">
+          <img src="./img/insurance-icon-bb51c425.svg" alt="">
+          <p>بیمه مسافرتی</p>
+        </a></div>
+        <div class="col-3"><a href="#">
+          <img src="./img/visa-icon-d8507c8e.svg" alt="">
+          <p>ویزای سفر</p>
+        </a></div>
+        <div class="col-3"><a href="#">
+          <img src="./img/gtour-icon-5e641f1b.svg" alt="">
+          <p>تور گروهی</p>
+        </a></div>
+      </div>
+      <div class="m-auto col-10 rounded">
+        <a href="#"><img class="w-100" src="./img/phone-sales-4af98b55.webp" alt=""></a>
+      </div>
+      <div class="d-none d-md-block">
+        <div class="m-auto col-10 rounded my-3 d-flex gap-3">
+          <a href="#">
+            <img class="w-100 rounded" src="./img/Safar_Card_Cardview_Banner_Desktop_02_09_22_ed374215f4.png" alt="">
+          </a>
+          <ahref="#">
+            <img class="w-100 rounded" src="./img/Safir_Cardview_Banner_Desktop_02_11_25_1385e307de.png" alt="">
+          </ahref=>
+        </div>
+      </div>
+      <div class="d-block d-md-none">
+        <div id="carouselExampleAutoplaying" class="carousel slide col-10 m-auto mt-3" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/Safar_Card_Cardview_Banner_Desktop_02_09_22_ed374215f4.png" class="d-block w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/Safir_Cardview_Banner_Desktop_02_11_25_1385e307de.png" class="d-block w-100 rounded" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="d-none d-lg-block">
+        <div id="app" class="col-10 m-auto bg-white rounded d-flex mt-2">
+          <div class="col-2 m-auto ms-5"><img class="w-75" src="./img/qrcode-56155e39.png" alt=""></div>
+          <div class="col-3 m-auto">
+            <p class="fw-bold fs-4">اپلیکیشن علی‌بابا</p>
+            <p class="fs-5">سریع‌تر و مطمئن‌تر به سفر بروید</p>
+            <a class="text-decoration-none  mt-2" href="#">مشاهده لینک های دانلود
+              <i class="bi bi-chevron-left fs-4"></i>
+            </a>
+            <p id="p" class="mt-4">
+              <i class="bi bi-apple"></i>
+              <i class="bi bi-android"></i>
+              قابلیت نصب روی Android و iOS
+            </p>
+          </div>
+          <div class="col-5  offset-2"><img class="w-75" src="./img/app-mobile@4x-e3e3b7dc.webp" alt=""></div>
+        </div>
+      </div>
+      <div class="d-block d-lg-none">
+        <div id="app" class="col-10 m-auto bg-white rounded d-flex mt-2">
+          <div class="col-6 mx-4 m-auto">
+            <p class="fw-bold fs-4">اپلیکیشن علی‌بابا</p>
+            <p style="color: gray;" >همه سفرها در جیب شماست</p>
+            <button class="btn btn-primary text-white rounded-5 mb-2" type="submit">راهنمای نصب</button>
+          </div>
+          <div class="col-5 offset-3 m-auto"><img class="w-75" src="./img/app-mobile@4x-e3e3b7dc.webp" alt=""></div>
+        </div>
+      </div>
+      <div class="col-10 m-auto mb-3 mt-4"><h3 class="fw-bold text-dark">پرسش های شما</h3></div>
     </div>
   </main>
-
 
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>

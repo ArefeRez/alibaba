@@ -50,6 +50,32 @@ li a i{
 }
 #button-search{
     background-color: #fdb713;
-    color: #000;
+    color: #0a0b0c;
     border: none;
+}
+h5{
+    font-family: YekanBakhMedium;
+    color: #000000;
+}
+#product-card{
+    border: 1px solid #aec4b9;
+}
+#product-card a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+#product-card p{
+   font-family: iranyekanwebmedium;
+   margin-right: 10%;
+}
+#new{
+    background-color: #84e199;
+}
+#app{
+    border: 1px solid #aec4b9;
+    font-family: iranyekanwebmedium;
+}
+#app #p{
+    color: rgb(150, 150, 150);
 }
