@@ -79,3 +79,10 @@ h5{
 #app #p{
     color: rgb(150, 150, 150);
 }
+#accordion{
+    font-family: YekanBakhBold;
+    font-weight: 500;
+}
+.card-body p{
+    color: #63726b;
+}
