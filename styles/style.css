@@ -86,3 +86,23 @@ h5{
 .card-body p{
     color: #63726b;
 }
+#baggage-img{
+    width: 100%;
+}
+#text{
+    color: #4b5259;
+}
+article p{
+    font-family: YekanBakhMedium;
+}
+#border-article{
+    border-bottom: 1px solid #aec4b9;
+}
+#text2{
+    color: #63726b;
+    font-family: YekanBakhMedium;
+}
+#text1{
+    font-family: iranyekanwebregular;
+    color: #44494e;
+}
