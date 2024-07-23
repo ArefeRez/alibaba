@@ -106,3 +106,41 @@ article p{
     font-family: iranyekanwebregular;
     color: #44494e;
 }
+#last-p{
+    color: #63726b;
+    font-family: YekanBakhMedium;
+    font-size: 0.8rem;
+}
+#social-media{
+    color: #63726b;
+    font-size: 1.5rem;
+}
+#p-footer{
+    font-family: iranyekanwebregular;
+    color: #000000;
+}
+footer li a{
+    text-decoration: none;
+    color: #000;
+    font-family: YekanBakhMedium;
+}
+footer li{
+    margin-bottom: 5px;
+}
+footer li:hover a{
+    color: #4b5952;
+}
+footer ul{
+    list-style: none;
+}
+#img-footer div{
+    margin-left: 10px;
+}
+#icon-footer{
+    height: 30px;
+}
+#address{
+    color: #4b5952;
+    font-family: iranyekanwebmedium;
+    font-size: 0.8rem;
+}
